@@ -1,3 +1,4 @@
+!pip install biopython
 def faster_downloader():
     """
     Sirve para cargar id_coati.txt en id_coatiy descargar en formato genbank la información correspondiente a los identificadores de accesión usando el ENTREZ de Biopythony se guardar en coati y en coati.gb
@@ -17,3 +18,4 @@ with open('data\coati.txt', 'r+') as coati:
 
 for i in range(len(sequences)):
     print(sequences[i], '\n')
+
